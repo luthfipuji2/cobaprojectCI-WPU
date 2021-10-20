@@ -47,7 +47,7 @@ class BaseController extends Controller
         parent::initController($request, $response, $logger);
 
         // Preload any models, libraries, etc, here.
-
+        session();
         $this->nama = 'luthfi puji';
         // $this->baseKomik = new KomikModel();
         // E.g.: $this->session = \Config\Services::session();
